@@ -69,7 +69,8 @@ const CoolProblemMamaCountdown: React.FC = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.4 }}
       >
-        Countdown until we solve all problems
+        Say goodbye to worries and enjoy a problem-free experience with Problem
+        Mama!
       </motion.p>
       <Countdown
         date={new Date("2026-01-01T00:00:00")}
